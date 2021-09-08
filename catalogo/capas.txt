@@ -1,0 +1,624 @@
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_material_predominante_pisos;;h_material_predominante_pisos;Hogares con piso de tierra o ladrillo suelto 2010 (%);orden:01,hogar,material, pisos;;4326;gid;;;;Material predominante en pisos (H0705):
+
+Superficie exterior de la base sólida con mayor proporción sobre la cual se asienta la estructura de la vivienda. Se los divide en distintos grupos de materiales de pisos:
+-Pisos de cerámica, baldosas, mosaicos, mármol, madera o alfombrado (cbmmma).
+-Pisos de cemento o ladrillo fijo (cemlad).
+-Pisos de tierra o ladrillo suelto (tierra).
+-Pisos de otros materiales (otro).
+
+La clasificación de este mapa corresponde al porcentaje de hogares particulares que tienen piso de tierra o ladrillo suelto (ptierra) en relación a la cantidad total de hogares censados en el año 2010.;1H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_hogares_con_bano;;h_hogares_con_bano;Hogares con baño 2010 (%);orden:02,hogar,baño,letrina,inodoro;;4326;gid;;;;Hogares con baño/letrina (H1510)
+
+Disponibilidad de un espacio cerrado por paredes que se elevan del suelo hasta el techo, o por tabiques, utilizado por el hogar para la evacuación de excretas. Puede estar dentro o fuera de la vivienda y ser de uso exclusivo del hogar o compartido con otros hogares.
+La clasificación de los radios censales representa el porcentaje de hogares particulares sin baño (pno) en relación a la cantidad total de hogares censados en el año 2010.;2H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_desague_inodoro;;h_desague_inodoro;Hogares con conexión de inodoro a red pública 2010 (%);orden:03,hogar,baño,letrina,inodoro;;4326;gid;;;;Hogares según desagüe del inodoro (H1712):
+
+Disponibilidad de un sistema de cañería que permite el arrastre del agua y la eliminación de las excretas del inodoro.
+-Desagüe a red pública (redpublic)
+-Desagüe a cámara séptica y pozo ciego (csep_pozoc)
+-Desagüe sólo a pozo ciego (pozo_ciego)
+-Desagüe a hoyo, excavación en la tierra, etcétera (hoyo_exc)
+
+La clasificación se realizó teniendo en cuenta  el porcentaje de hogares particulares con conexiones a la red pública (predpub) en relación a la cantidad total de hogares del mismo radio censal censados en el año 2010.;3H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_bano_uso_exclusivo;;h_bano_uso_exclusivo;Hogares con baño compartido 2010 (%);orden:04,hogar,baño,letrina,inodoro;;4326;gid;;;;Hogares con baño exclusivo por vivienda (H1510):
+
+Disponibilidad de un espacio cerrado por paredes que se elevan del suelo hasta el techo, o por tabiques (pared que se eleva desde el suelo hasta una altura de dos metros), utilizado por el hogar para la evacuación de excretas. El baño / letrina puede estar dentro o fuera de la vivienda y ser de uso exclusivo del hogar o compartido con otros hogares.
+
+La clasificación de los radios censales indica el porcentaje de hogares que tienen baños compartidos con otros hogares (pcompartid), en relación al total de hogares del mismo radio censal en el año 2010.;4H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_bano_boton_cadena_mochila;;h_bano_boton_cadena_mochila;Hogares con baños sin sistema automático de descarga 2010 (%);orden:05,hogar,baño,letrina,inodoro;;4326;gid;;;;Baños con boton, cadena, mochila (H1611)
+Disponibilidad de un sistema automático o semi- automático de descarga de agua para la limpieza del inodoro (artefacto instalado dentro del baño/letrina). 
+
+La clasificación de los radios censales tiene en cuenta el porcentaje de hogares que no tienen baños con sistema automático de descarga de agua para limpieza del inodoro (pno) en relación a la totalidad de hogares de dicho radio censal en el año 2010.;5H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_procedencia_agua;;h_procedencia_agua;Hogares con conexión de agua a red pública 2010 (%);orden:06,hogar,agua,servicios;;4326;gid;;;;Procedencia del agua para beber y cocinar (H1409): 
+Fuente y sistema de abastecimiento del agua que el hogar utiliza para beber y cocinar. En caso de abastecerse con más de una fuente, se considera la que predomina en el uso cotidiano del hogar. Las categorías son:
+-Red pública (redpub): red de tuberías comunal. Se la conoce también como agua corriente.
+-Perforación con bomba a motor (perbmotor): extracción del agua de las napas profundas, a través de un medio mecánico de elevación con motor.
+-Perforación con bomba manual (perbmanual):  extracción del agua de las napas profundas, a través de un medio mecánico de elevación manual.
+-pozo: extracción del agua de las napas superficiales a través de un medio mecánico de elevación (que puede ser manual o a motor) o bien a través de un balde o similar (sin utilizar medios mecánicos de elevación).
+-Transporte por cisterna (cisterna): provisión mediante camión tanque, tren aguatero, etcétera.
+-Agua de lluvia, río, canal, arroyo o acequia (lluvia_rio): acumulación del agua de lluvia en un recipiente o directamente de ríos, canales, arroyos o acequias.
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con conexión a la red pública (predpub) censados en el año 2010 en relación al total de hogares de cada radio censal.;6H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_combustible_para_cocinar;;h_combustible_para_cocinar;Hogares que utilizan garrafas para cocinar 2010 (%);orden:07,hogar,garrafas,cocina;;4326;gid;;;;Combustible usado principalmente para cocinar (H2014): 
+
+Sustancia (que tiene el atributo de arder) o fuente de energía que se utiliza con mayor frecuencia para la cocción de los alimentos, tal como: combustibles gaseosos (gas natural o licuado); sólidos (carbón, productos del carbón, leña); petróleo y derivados (kerosene) y otros como la electricidad y el alcohol. Los categorías son:
+- Gas de red: (gasred)
+- Gas a granel (zeppelin): (gasgranel)
+- Gas en tubo: (gastubo)
+- Gas en garrafa: (gasgarrafa)
+- Electricidad: (electricid)
+- Leña o carbón: (l_carbon)
+- Otro: (otro)
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares que utilizan garrafas para cocinar (pgasgarraf) censados en el año 2010 en relación a la cantidad total de hogares de dicho radio censal.;7H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_personas_por_cuarto;;h_personas_por_cuarto;Hogares con hacinamiento de 2 a 3 2010 (%);orden:08,hogar,hacinamineto,personas;;4326;gid;;;;Índice de Hacinamiento (INDHAC): 
+Cociente entre la cantidad total de personas del hogar y la cantidad total de habitaciones o piezas de que dispone el mismo (sin contar baño/s y cocina/s).  
+Se clasificaron en 0-0.50 personas por cuarto (a), 0.51-0.99 personas por cuarto (b), 1-.1.49 personas por cuarto (c), 1.50-1.99 personas por cuarto (d), 2-3 personas por cuarto (e) y mas de 3 personas por cuarto (f).
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con hacinamiento de 2 a 3 (pe), en relación a la cantidad de hogares del mismo radio censal en el año 2010.;8H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_tenencia_vivienda_particular;;h_tenencia_vivienda_particular;Hogares según régimen de tenencia - Propietarios de la vivienda 2010 (%);orden:09,hogar,vivienda,propiedades;;4326;gid;;;;Tenencia de vivienda particular 2010
+Régimen de Tenencia (PROP): constituye los arreglos (conjunto de normas jurídico-legales o de hecho) en virtud de los cuales el hogar ocupa toda o parte de una vivienda. 
+Se clasifica en las siguientes categorías:
+-Propietario de la vivienda y del terreno: la vivienda y el terreno en el que está ubicada la misma, pertenecen a alguno/s de los integrantes del hogar (propvt). 
+-Propietario sólo de la vivienda: la vivienda (pero no el terreno en el que está ubicada) pertenece a alguno/s de los integrantes del hogar (propv).
+-Inquilino: el hogar paga, por la utilización de toda o parte de una vivienda, una cantidad en dinero o en especie (anual, mensual, quincenal, etcétera), independientemente de que medie un contrato legal (inquil).
+-Ocupante por préstamo: el hogar utiliza la vivienda que le es facilitada gratuitamente por el propietario (ocuprest). 
+-Ocupante por trabajo: el hogar utiliza la vivienda que es facilitada gratuita o semi-gratuitamente por el patrón, organismo u empresa donde trabaja alguno de los miembros del hogar en virtud de su relación laboral (ocutrab).
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares cuyo régimen de tenencia corresponde a propietario de la vivienda (ppropv) en relación al total de hogares del cada radio censal en el año 2010.;9H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_necesidades_basicas_insatisfechas;;h_necesidades_basicas_insatisfechas;Hogares particulares con NBI 2010 (%);orden:10,hogar,vivienda,nbi;;4326;gid;;;;Indicador Necesidades Básicas Insatisfechas (NBI) 
+
+Está determinado por los siguientes factores:
+-NBI Vivienda (NBI1): hogares en una vivienda de tipo inconveniente (pieza de inquilinato, vivienda precaria u otro tipo, lo que excluye casa, departamento y rancho).
+-NBI  Condiciones sanitarias (NBI2): hogares que no tienen ningún tipo de retrete.
+-NBI Hacinamiento (NBI3): hogares que tienen más de tres personas por cuarto.
+NBI Asistencia Escolar (NBI4): hogares con al menos un niño en edad escolar (6 a 12 años) que no asiste a la escuela.
+-NBI Capacidad de Subsistencia (NBI5): hogares que tiene cuatro o más personas por miembro ocupado y, además, cuyo jefe no completó tercer grado de escolaridad  primaria.
+
+Los hogares con Necesidades Básicas Insatisfechas son los que presentan al menos uno de los cinco indicadores de privación descriptos con anterioridad: vivienda (NBI 1), condiciones sanitarias (NBI 2), hacinamiento (NBI 3), asistencia escolar (NBI 4), capacidad de subsistencia (NBI 5).
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con NBI (pcon_nbi) censados en el año 2010, en relación a la cantidad total de hogares del mismo radio censal.;10H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_material_predominante_cubierta_techo;;h_material_predominante_cubierta_techo;Hogares con cubierta de techo de chapa de cartón 2010 (%);orden:11,hogar,vivienda,techo;;4326;gid;;;;Material predominante del techo (H1006): 
+Material observable desde el exterior de una vivienda. En departamentos ubicados en construcciones verticales, corresponde al techo de la última planta. Se consideran diferentes grupos de materiales:
+- Cubierta asfáltica o membrana (casf_m).
+- Baldosa o Losa (losa)
+- Pizarra o teja (piz_teja)
+- Chapa de metal sin cubierta (ch_metal)
+- Chapa de fibrocementos o plástico (ch_plast)
+- Chapa cartón (ch_cart)
+- Caña, palma, tabla o paja con o sin barro (cptpcb)
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con cubierta de techo con chapa de cartón (pch-cart) en relación al total de hogares censados en el año 2010.;11H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_revestimiento_interior_cieloraso;;h_revestimiento_interior_cieloraso;Hogares sin revestimiento o cieloraso 2010 (%);orden:12,hogar,vivienda,carencias;;4326;gid;;;;Cobertura del techo del lado interior de una vivienda (H1007): 
+
+Puede ser revoque, yeso, madera y/o placas de poliestireno expandido, etc. Cuando alguna/s de las habitaciones de la vivienda no tenga/n cielorraso, se registra la situación predominante.
+
+La clasificación de los radios censales representa el porcentaje de hogares sin revestimiento o cielorraso (pno) en relación al total de hogares de cada radio censal en el año 2010.;12H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_tenencia_agua;;h_tenencia_agua;Hogares con tenencia de agua dentro de la vivienda 2010 (%);orden:13,hogar,agua,servicios;;4326;gid;;;;Tenencia de agua (H1308): 
+
+Forma en que el hogar accede al agua que utiliza. Las categorías son:
+- Por cañería dentro de la vivienda (dviv): sistema de suministro de agua conectado a una red de tuberías por medio de la cual se distribuye el agua en su interior. 
+- Fuera de la vivienda pero dentro del terreno (fviv_dter): sistema de suministro de agua dentro de los límites del terreno pero no dispone de una red de tuberías para distribuirla hacia el interior de la vivienda.
+- Fuera del terreno (fter): sistema de suministro de agua fuera de la vivienda y de los límites del terreno.
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con tenencia de agua dentro de la vivienda (pdviv) en relación a la cantidad total de hogares del mismo radio censal en el año 2010.;13H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_tenencia_celular;;h_tenencia_celular;Hogares con tenencia de teléfono celular 2010 (%);orden:14,hogar,teléfono,celular;;4326;gid;;;;Tenencia de teléfono celular (H2819C)
+Tenencia de teléfono móvil de al menos uno de los integrantes del hogar.
+
+La clasificación de los radios censales representan el porcentaje de hogares particulares con tenencia de teléfono celular (psi) censados en el año 2010, en relación a la cantidad total de hogares del mismo radio censal.;14H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_tenencia_computadora;;h_tenencia_computadora;Hogares con tenencia de computadora 2010 (%);orden:15,hogar,teléfono,celular;;4326;gid;;;;Tenencia de computadora (H2819B): 
+Indica si el hogar cuenta con un aparato electrónico que se utiliza para el almacenamiento, procesamiento de información (datos, palabras, imágenes, etc.)
+
+La clasificación se realizó teniendo en cuenta el porcentaje de hogares que cuentan con computadora, en relación a la cantidad total de hogares del mismo radio censal en el año 2010.;15H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_tenencia_heladera;;h_tenencia_heladera;Hogares con tenencia de heladera 2010 (%);orden:16,hogar,heladera,electrodomesticos;;4326;gid;;;;Tenencia de Heladera (H2819A): 
+La clasificación de los radios censales representa el porcentaje de hogares particulares con tenencia de heladera (psi) en relación a la cantidad total de hogares del mismo radio censal en el año 2010.;16H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_h_tenencia_telefono_linea;;h_tenencia_telefono_linea;Hogares con tenencia de teléfono de línea 2010 (%);orden:17,hogar,teléfono,celular;;4326;gid;;;;Teléfono de línea (H2819D): 
+La clasificación de los radios censales representa el porcentaje de hogares particulares que tienen teléfono de línea (psi) censados en el año 2010 en relación a la cantidad total de hogares en el mismo radio censal.;17H;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_sexo;;p_sexo;Población de mujeres 2010 (%);orden:18,población,genero,sexo;;4326;gid;;;;Población según sexo (P02): 
+Refiere a la condición de “varón” o “mujer” del censado.
+
+La clasificación de los radios censales representa el porcentaje de mujeres (pmujer) en relación a la población total de dicho radio censal en el año 2010.;1P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_nacimientos;;p_nacimientos;Nacimientos en el país 2010;orden:19,población,genero,sexo;;4326;gid;;;;Nacimientos  (P05):
+Permite clasificar a la población en función del país de nacimiento: indica si el censado nació en argentina (arg) u otro país (otros).
+La clasificación de este mapa corresponde al porcentaje de la población por radio censal que nació en el país (parg) en relación a la cantidad total de población censados en el año 2010.;2P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_grupos_de_edad;;p_grupos_de_edad;Total de población según grandes grupos de edad Año 2010;orden:20,población,genero,edades;;4326;gid;;;;Edad en grandes grupos (EDADAGRU):
+Esta variable agrupa la edad en años cumplidos a la fecha de referencia del Censo en tres situaciones:
+-De 0 a 14 años (a)
+-De 15 a 64 años (b)
+-Mayores de 64 años (c).
+ Se efectuó el mapeo del último grupo, obteniendo los porcentajes de personas mayores de 64 años (pc) en los distintos radios censales.;3P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_grupos_quinquenales;;p_grupos_quinquenales;Población según grupos quinquenales de edad;orden:21,población,genero,edades;;4326;gid;;;;Edades quinquenales (EDADQUI):
+Es una variable que agrupa la edad en años cumplidos a la fecha de referencia del censo cada cinco años.
+Las categorías son:
+-a: 0 a 4 años
+-b: 5 a 9 años 
+-c: 10 a 14 años
+-d: 15 a 19 años 
+-e: 20 a 24 años
+-f: 25 a 29 años 
+-g: 30 a 34 años
+-h: 35 a 39 años 
+-i: 40 a 44 años
+-j: 45 a 49 años 
+-k: 50 a 54 años
+-l: 55 a 59 años 
+-m: 60 a 64 años
+-n: 65 a 69 años 
+-o: 70 a 74 años
+-p: 75 a 79 años 
+-q: 80 a 84 años
+-r: 85 a 89 años
+-s: 90 a 94 años
+-t: 95 y mas  
+En el mapa se representan los porcentajes de la población de jóvenes de 15 a 19 años de edad (pd) por radio censal.;4P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_segun_parentesco;;p_segun_parentesco;Población en hogares según parentesco;orden:22,población,genero,familia;;4326;gid;;;;Relación de parentesco con el jefe (a) (P01):
+Indica la relación (parentesco, amistad, trabajo u otro tipo) de cada miembro del hogar con quien ellos hayan designado como jefe o jefa del mismo.
+Las categorías son:
+1. jefe: persona reconocida como tal por los demás miembros del hogar.
+2. cónyuge: es la pareja de unión legal (unión civil/matrimonio) o la pareja de unión (de hecho) del jefe o jefa.
+3. hijo: incluye hijos e hijas biológicos y adoptivos legales o de hecho del jefe(a) o criados del jefe o jefa y/o también incluye a los hijos e hijas del o la cónyuge aunque no lo sean del jefe o jefa.
+4. yerno: cónyuge o pareja del hijo(a) o hijastro(a) del jefe o jefa del hogar.
+5. nieto: nietos del jefe o jefa del hogar. Se incluye también a los hijos de hijastros(as).
+6. padre: estas relaciones son aplicables también a vínculos funcionalmente equivalentes, tales como los de padrastros y madrastras con yernos, nietos, etcétera, referidos tanto a los matrimonios como a las uniones de hecho.
+7. otros: personas con algún otro tipo de parentesco con el jefe o la jefa del hogar (por ejemplo: tíos, hermanos, etcétera).
+8. nofam: personas que forman parte del hogar y que no tienen parentesco con el jefe(a) del hogar (amigos, etcétera) y que no están comprendidos en ninguna de las categorías precedentes.
+9. domest: servicio doméstico y sus familiares, persona contratada (legalmente o de hecho) para desarrollar tareas relacionadas con el cuidado y mantenimiento de la vivienda y/o de los integrantes del hogar. La retribución por su trabajo puede ser en dinero o en especie. Incluye a sus familiares.
+En el mapa se representa el porcentaje de jefes/as de hogar por radio censal (pjefe).;5P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_condición_actividad;;p_condición_actividad;6P-Población desocupada 2010 (%);orden:23,población,desocupacion,actividad;;4326;gid;;;;Condición de actividad (CONDACT):
+
+Se clasifica a la población entre económicamente activa e inactiva, según sea el tipo de actividad principal que realizan las personas. La participación económica está referida a las actividades económicas que se desarrollan en el país, destinadas a la producción de bienes y servicios para el mercado. Se los divide en distintos grupos:
+
+- Ocupado: es aquel que durante por lo menos una hora desarrolló cualquier actividad  que genera bienes o servicios para el “mercado”. Incluye a quienes realizaron tareas regulares de ayuda en la actividad de un familiar, reciban o no una remuneración por ello y a quienes se hallaron en uso de licencia por cualquier motivo. Se excluyen trabajos voluntarios o comunitarios.
+
+- Desocupado: es aquel que no hallándose en ninguna de las situaciones descritas en la definición de “ocupado”, desarrolló acciones tendientes a establecer una relación laboral o iniciar una actividad empresarial.
+
+- Inactivo: es aquel que no se incluye en la población económicamente activa, es decir que no es ocupado ni desocupado. Incluye a jubilados, estudiantes y otras situaciones.
+
+La clasificación de este mapa corresponde al porcentaje de población desocupada (pdesocup) en relación a la cantidad total de hogares censados en el año 2010;6P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_no_sepan_leer_ni_escribir;;p_no_sepan_leer_ni_escribir;Población no sabe leer ni escribir 2010 (%);orden:24,población,educacion,actividad;;4326;gid;;;;Sabe leer y escribir (P1707): 
+
+Esta variable se refiere a la capacidad de leer, escribir y comprender una frase sencilla sobre la vida cotidiana en cualquier idioma. Se requiere el conocimiento de ambas capacidades.
+
+La clasificación de este mapa corresponde al porcentaje de población que no sabe leer ni escribir (pno) en relación a la cantidad total de hogares censados en el año 2010.;7P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_cursa_o_curso_nivel_educativo;;p_cursa_o_curso_nivel_educativo;Población que no cursó ningún nivel educativo año 2010 (%);orden:25,población,educacion,actividad;;4326;gid;;;;Nivel educativo que cursa o cursó (P1909):
+
+Se refiere al nivel que el censado cursó o está cursando en Argentina o en el exterior en la fecha del censo.
+
+La clasificación de este mapa corresponde al porcentaje de población que no cursa ningún nivel educativo (pno) en relación a la cantidad total de población censados en el año 2010.;8P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_asistencia_nivel_educativo;;p_asistencia_nivel_educativo;Población que nunca asistió a un establecimiento educativo (%);orden:26,población,educacion,actividad;;4326;gid;;;;Condición de asistencia escolar (P1808):
+
+Se refiere a la concurrencia actual o pasada (si asiste /asistió) a un establecimiento reconocido del sistema de la enseñanza formal.
+
+Comprende a los establecimientos del sector estatal o privado.
+
+Las categorías son:
+1. Asiste (asiste) 
+2. Asistió (asitio)
+3. Nunca asistió (nasist)
+
+La clasificación de este mapa corresponde al porcentaje de la población por radio censal que nunca tuvo asistencia escolar (pnasist) en relación a la cantidad total de población censados en el año 2010.;9P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_nivel_educativo;;p_nivel_educativo;Población según nivel educativo que cursa o cursó año 2010 (%);orden:27,población,educacion,actividad;;4326;gid;;;;Máximo nivel de instrucción (MNI):
+Se refiere a las personas que asistieron a un establecimiento reconocido del sistema de enseñanza formal, que aprobaron el último año de estudio y obtuvieron el diploma o certificado correspondiente a un determinado nivel. En todos los casos comprende la educación pública (nacional y provincial) y privada.
+Para el caso de los que declararon estar asistiendo a un nivel educativo y aun no lo completaron corresponde nivel “incompleto”. Se trata de la estructura anterior a la Ley Federal de Educación y la que resulta de la nueva Ley de Educación Nacional (2006). Esta estructura comprende los niveles:
+1. Inicial - jardín/preescolar (inicial): comprende a los/as niños/as desde los cuarenta y cinco (45) días hasta los cinco (5) años de edad inclusive, siendo obligatorio este último año. 
+2. Primario (primario): comprende los niveles de escolaridad primaria, de carácter obligatorio, cuya duración puede ser de seis o siete años (1° a 7° grado o 1° a 6° grado). 
+3. EGB (egb): La duración es de nueve años y se encuentra compuesta por tres ciclos de tres años cada uno, EGB 1 (1° a 3° grado); EGB 2 (4° a 6° grado) y EGB 3 (7° a 9° grado). 
+4. Secundario (secund): nivel de escolaridad media o secundaria aún vigente. La duración puede ser de cinco o seis años (1° a 5° año o 1° a 6° año). 
+5. Polimodal (polim): La duración es de tres años.
+6. Superior no universitario (sup): nivel de estudios que se realiza en instituciones de educación terciaria no universitaria, con planes de estudios aprobados por el Ministerio de Educación (de la nación o de las provincias)
+7. Universitario (univ): nivel de estudios que se realiza en universidades y comprende exclusivamente las carreras que otorgan títulos profesionales y las licenciaturas. 
+8. Post-universitario (postuni): nivel de estudios que corresponde a las carreras de especificación, maestrías y doctorados acreditadas por la Comisión Nacional de Educación y Acreditación Universitaria (CONEAU) o debidamente reconocida por el Ministerio de Educación. 
+9. Educación especial (especial): modalidad del Sistema Educativo Nacional destinada a asegurar el derecho a la educación de las personas con discapacidades, temporales o permanentes, en todos los niveles y modalidades del Sistema Educativo.
+Se mapea los porcentajes de población que cursan o están cursando el nivel Primario en relación a la población censada en 2010  (pprimario).;10P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_p_utilización_computadora;;p_utilización_computadora;Población que no utiliza computadora año 2010 (%);orden:28,población,educacion,actividad;;4326;gid;;;;Utilización de computadora (P2212):
+
+Evalúa la capacidad de manejar cualquier programa o software en una computadora. 
+
+La clasificación de este mapa corresponde al porcentaje de población que no utiliza computadora (pno) en relación a la cantidad total de población censada en el año 2010.;11P;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_v_tipos_viviendas_agrupadas;;v_tipos_viviendas_agrupadas;Viviendas de tipo particular 2010 (%);orden:29,hogar,vivienda,casa;;4326;gid;;;;Tipo de vivienda agrupada (TIPVV), establece si la vivienda es particular o colectiva:
+
+1- Particular (particular): vivienda destinada a alojar personas que viven bajo un régimen de tipo familiar. Constituyen tipos de viviendas particulares: casas, ranchos, casillas, departamentos, piezas en inquilinato, piezas en hotel familiar o pensión, viviendas móviles, y locales no construidos para habitación.
+
+2- Colectiva (colectiva): vivienda destinada a alojar personas que viven bajo un régimen institucional (no familiar), regulada por normas de convivencia de carácter administrativo, militar, religioso, de salud, de reclusión, de trabajo, de educación, etc.
+
+Se representa el porcentaje de viviendas de tipo particular por radio censal (ppartic).;1V;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_v_tipos_viviendas_particulares;;v_tipos_viviendas_particulares;Viviendas particulares de tipo casilla 2010 (%);orden:30,hogar,vivienda,casa,casilla;;4326;gid;;;;Tipo de vivienda particular (V01), considera las siguientes categorías:
+
+1- Casa (casa): vivienda con salida directa al exterior (sus habitantes no pasan por pasillos o corredores de uso común) construida originalmente para que habiten personas. Generalmente tiene paredes de ladrillo, piedra, bloque u hormigón.
+2-Rancho (rancho): vivienda con salida directa al exterior (sus habitantes no pasan por pasillos o corredores de uso común) construida originalmente para que habiten personas. Generalmente tiene paredes de adobe, piso de tierra y techo de chapa o paja. Se considera propia de áreas rurales.
+3- Casilla (casilla): vivienda con salida directa al exterior, construida originalmente para que habiten personas (sus habitantes no pasan por pasillos o corredores de uso común). Habitualmente está construida con materiales de baja calidad o de desecho y se considera propia de áreas urbanas.
+4- Departamento (depart): vivienda construida originalmente para que habiten personas, que forma parte de un edificio o estructura que, con una entrada común, contiene por lo menos dos viviendas (o una vivienda y uno o más locales) a las que se accede a través de pasillos, escaleras, zaguanes o ascensores de uso común.
+5- Pieza en inquilinato (piezainq): pieza ubicada en un inquilinato o conventillo, siendo ésta una edificación o estructura que ha sido construida o remodelada deliberadamente para contener varias piezas que tienen salida a uno o más espacios de uso común con la finalidad de alojar en forma permanente personas en calidad de inquilinos.
+6- Pieza en hotel familiar o pensión (hotel): pieza ubicada en un hotel familiar o pensión, siendo ésta una edificación o estructura que ha sido construida o remodelada deliberadamente para contener varias piezas que tienen salida a uno o más espacios de uso común con la finalidad de alojar en forma permanente personas en calidad de huéspedes o pensionistas. Cada pieza en hotel o pensión familiar en la que hubo personas que pasaron la noche de referencia del Censo es considerada una vivienda.
+7- Local no construido para habitación (local): vivienda que no ha sido construida o adaptada para que habiten personas pero en la que hubo personas que pasaron la noche de referencia del Censo.
+8- Vivienda móvil (movil): estructura que es utilizada como vivienda, construida para ser transportada (tienda de campaña, taco o carpa) o que constituye una unidad móvil (barco, bote, vagón de ferrocarril, casa rodante, camión, trineo, etcétera). Será considerada vivienda particular sólo si hubo personas que pasaron la noche de referencia del Censo.
+9- En la calle (calle): espacio en la vía pública (calle, estación del ferrocarril, estación del subterráneo, portal de edificio, plaza, etcétera) utilizado por el hogar como lugar de habitación y/o pernocte en el momento del censo.
+
+Se representa el porcentaje de viviendas particulares del tipo casilla por radio censal (pcasilla).;2V;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_v_tipos_viviendas_colectivas;;v_tipos_viviendas_colectivas;Viviendas colectivas de tipo hogares de ancianos 2010 (%);orden:31,hogar,vivienda,casa;;4326;gid;;;;Tipos de viviendas colectivas (V00):
+1. Hogares de ancianos (hancianos): incluye geriátrico.
+2. Hogares de menores (hmenores).
+3. Residencias de estudiantes, colegios o internados (internado).
+4. Campamentos (Campamento): incluye obradores.
+5. Hospitales (hospital).
+6. Prisiones (prision): incluye comisarías.
+7. Cuarteles (cuartel).
+8. Hogares de religiosos (religioso): incluye conventos y seminarios.
+9. Hoteles turísticos (turistico).
+10. Otros (otros).
+
+Se representa el porcentaje de viviendas colectivas de tipo hogares de ancianos, referido al total de viviendas colectivas por radio censal (phancianos).;3V;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_v_calidad_constructiva_viviendas_particulares_habitadas;;v_calidad_constructiva_viviendas_particulares_habitadas;Viviendas particulares con calidad constructiva insuficiente 2010 (%);orden:32,hogar,vivienda,casa,construccion;;4326;gid;;;;Calidad constructiva de la vivienda (INCALCONS): refiere a la calidad de los materiales con que están construidas las viviendas (piso, techo y cielorraso). Se consideran las siguientes categorías:
+1. Calidad satisfactoria (satisfac): refiere a las viviendas que disponen de materiales resistentes, sólidos y con la aislación adecuada. A su vez también disponen de cañerías dentro de la vivienda y de inodoro con descarga de agua.
+2. Calidad básica (basica): identifica a las viviendas que no cuentan con elementos adecuados de aislación o tienen techo de chapa o fibrocemento. No obstante, cuentan con cañerías dentro de la vivienda y de inodoro con descarga de agua.
+3. Calidad insuficiente (insufic): abarca a las viviendas que no cumplen ninguna de las 2 condiciones anteriores.
+
+Se representa el porcentaje de viviendas particulares habitadas con una calidad constructiva insuficiente (pinsufic).;4V;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_v_calidad_conexiones_servicios_basicos;;v_calidad_conexiones_servicios_basicos;Viviendas con conexiones a servicios básicos de calidad satisfatoria 2010 (%);orden:33,hogar,vivienda,casa,construccion;;4326;gid;;;;Calidad de conexiones a servicios básicos (INCALSERV): refiere al tipo de instalaciones con que cuentan los hogares para su saneamiento (agua, baño y desagüe). 
+Las categorías clasificatorias son: 
+Calidad satisfactoria (satisfac): refiere a las viviendas que disponen de agua a red pública y desagüe cloacal. 
+Calidad básica (basica): describe la situación de aquellas viviendas que disponen de agua de red pública y el desagüe a pozo con cámara séptica. 
+Calidad insuficiente(insufic): abarca a las viviendas que no cumplen ninguna de las 2 condiciones anteriores.
+
+Se representa el porcentaje de viviendas con calidad satisfactoria de conexiones a servicios básicos por radio censal (psatisfac).
+;5V;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_v_calidad_materiales_viviendas_particulares_habitadas;;v_calidad_materiales_viviendas_particulares_habitadas;Viviendas con materiales de baja calidad en pisos y techos 2010 (%);orden:34,hogar,vivienda,casa,construccion;;4326;gid;;;;Calidad de los materiales (INMAT): refiere a la calidad de los materiales con que están construidas las viviendas (material predominante de los pisos y techos), teniendo en cuenta la solidez, resistencia y capacidad de aislamiento, así como también su terminación.
+Calidad I (calid1): la vivienda presenta materiales resistentes y sólidos tanto en el piso como en techo; presenta cielorraso.
+Calidad II (calid2): la vivienda presenta materiales resistentes y sólidos tanto en el piso como en el techo. Y techos sin cielorraso o bien materiales de menor calidad en pisos.
+Calidad III (calid3): la vivienda presenta materiales poco resistentes y sólidos en techo y en pisos.
+Calidad IV (calid4): la vivienda presenta materiales de baja calidad en pisos y techos.
+
+Se representa el porcentaje de viviendas particulares habitadas con una calidad IV de materiales (pcalid4) por radio censal.;6V;"
+"geoestadisticas;db_concordia_catalogo;catalogo;sig_v_condicion_ocupacion_viviendas_particulares;;v_condicion_ocupacion_viviendas_particulares;Viviendas particulares habitadas con personas presentes 2010 (%);orden:35,hogar,vivienda,casa;;4326;gid;;;;Condición de ocupación (V02): Esta variable establece si la vivienda se encuentra habitada o deshabitada la noche de referencia del Censo.
+• Habitada con personas presentes (presentes).
+• Habitada con todas las personas temporalmente ausentes (ausentes).
+• Deshabitada: en alquiler o venta (alqu_venta); en construcción (construc); se usa como comercio, oficina o consultoriose (com_ofic); uso temporario (uso_temp); por otra razón (otros).
+
+Se representa el porcentaje de viviendas particulares habitadas con personas presentes (ppresentes) por radio censal .;7V;"
+planeamiento_y_catastro;db_concordia_catalogo;catalogo;sig_fraccion_censal;;fraccion_censal;Fracción Censal;orden:100,censo,relevamiento,encuesta;;4326;gid;;;;División del Departamento o Partido, compuesta por un promedio de 20 radios censales (en áreas urbanas comprende entre 3000 y 6000 viviendas);fraccion_censal;
+planeamiento_y_catastro;db_concordia_catalogo;catalogo;sig_radio_censal;;radio_censal;Radio Censal;orden:101,censo,relevamiento,encuesta;;4326;gid;;;;Unidad de diseño muestral. En áreas urbanas,los radios comprenden entre 200 y 400 viviendas. En áreas rurales su tamaño depende de la cantidad de viviendas por radio, de la accesibilidad e infraestructura de la zona  y de la distancia a recorrer por el censista.;radio_censal;
+planeamiento_y_catastro;db_concordia_catalogo;catalogo;sig_barrios;;barrios;Barrios;orden:102,barrio,barrios,catastro;;4326;gid;;;;Barrios del éjido de Concordia. Fuente: Dirección de Catastro Municipalidad de Concordia;barrios;
+planeamiento_y_catastro;db_concordia_catalogo;catalogo;sig_manzanas;;manzanas;Manzanas;orden:103,barrio,manzanas,catastro,parcelas;;4326;gid;;;;Manzanas catastrales del éjido de Concordia. Fuente: Dirección de Catastro Municipalidad de Concordia;manzanas;
+planeamiento_y_catastro;db_concordia_catalogo;catalogo;sig_parcelas;;parcelas;Parcelas;orden:104,barrio,manzanas,catastro,parcelas;;4326;gid;;;;Bien inmueble de extensión territorial continua delimitado por una poligonal cerrada, perteneciente a un propietario o varios en condominio, o poseido por una persona o por varias en común, cuya existencia y elementos esenciales consten en un plano registrado en el organismo catastral. Fuente: Dirección de Catastro Municipalidad de Concordia.;parcelas;
+servicios_e_infraestructura_urbana;db_concordia_catalogo;catalogo;sig_luminarias;;luminarias;Luminarias;orden:200,luminarias,alumbrado,iluminación;;4326;gid;;;;Luminarias del éjido de Concordia. (Fuente: Dirección de Electrotecnia del Municipio de Concordia);luminarias;
+servicios_e_infraestructura_urbana;db_concordia_catalogo;catalogo;sig_medidores_alumbrado;;medidores_alumbrado;Medidores de alumbrado;orden:201,luminarias,alumbrado,iluminación;;4326;gid;;;;Medidores de alumbrado del éjido de Concordia. (Fuente: Dirección de Electrotecnia del Municipio de Concordia);medidor_alumbrado;medidor_alumbrado.svg
+servicios_e_infraestructura_urbana;db_concordia_catalogo;catalogo;sig_medidores_reparticion;;medidores_reparticion;Medidores de repartición;orden:202,luminarias,alumbrado,iluminación;;4326;gid;;;;Medidores de alumbrado del éjido de Concordia (Fuente: Dirección de Electrotecnia del Municipio de Concordia). DECRETO Nº 984/2010: regitran el consumo de semáforos y otros elementos para señalización vial o relojes electrónicos instalados por la Municipalidad previa coordinación con la Cooperativa Electrica de Concordia.Liquidación según cuadro tarifario del EPRE. Incluye lugares donde la Cooperativa no presta servicios de mantenimiento (plazas, peatonales, paseos, etc.);medidor_reparticion;medidor_reparticion.svg
+servicios_e_infraestructura_urbana;db_concordia_catalogo;catalogo;sig_mensulas_cfi;;mensulas_cfi;Mensulas CFI;orden:203,ménsula,nivelación,altimetría;;4326;gid;;;;Red de puntos fijos altimétricos de la ciudad de Concordia (Fuente: Consejo Federal de Inversiones 1988);mensulas_CFI;
+servicios_e_infraestructura_urbana;db_concordia_catalogo;catalogo;sig_pavimento_y_cordon_cuneta;;pavimento_y_cordon_cuneta;Pavimento y cordón cuneta;orden:204,pavimento,cordón,construcción;;4326;gid;;;;Clasificación de las calles de acuerdo al tipo de superficie de rodadura (Fuente: Dirección de Ingeniería del Municipio de Concordia);pavimento_y_cordon_cuneta;
+servicios_e_infraestructura_urbana;db_concordia_catalogo;catalogo;sig_recoleccion_residuos;;recoleccion_residuos;Recoleccion de residuos;orden:205,servicios,residuos,basura;;4326;gid;;;;Días y horarios asignados a la recolección de residuos (Fuente: Secretaría de Servicios Públicos de Concordia);recoleccion_residuos;
+seguridad;db_concordia_catalogo;catalogo;sig_bomberos;;bomberos;Bomberos;orden:300,bomberos,incendio,fuego;;4326;gid;;;;Cuarteles de bomberos de la ciudad de Concordia;cuartel_bomberos_visor;bomberos_visor.svg
+seguridad;db_concordia_catalogo;catalogo;sig_comisarias;;comisarias;Comisarias;orden:301,seguridad,control,policia;;4326;gid;;;;Comisarías de la ciudad de Concordia;edificio_seguridad_visor;edificio_seguridad_visor.svg
+salud_y_desarrollo_social;db_concordia_catalogo;catalogo;sig_hospitales_sanatorios_centros_salud;;hospitales_sanatorios_centros_salud;Hospitales, Sanatorios y Centros de salud;orden:400,salud, medicina, hospitales;;4326;gid;;;;Hospitales, sanatorios y centros de salud del éjido de Concordia.;edificio_salud_visor;edificio_salud_visor.svg
+instituciones_publicas;db_concordia_catalogo;catalogo;sig_correo;;correo;Correo;orden:500,correo,postales,encomiendas;;4326;gid;;;;Empresas de correo postal y encomiendas de la ciudad de Concordia.;edificio_comunicaciones;edificio_comunicaciones.svg
+instituciones_publicas;db_concordia_catalogo;catalogo;sig_edificios_publicos;;edificios_publicos;Edificios públicos;orden:501,edificios,construcción;;4326;gid;;;;Edificios públicos de la ciudad de Concordia.;edificio_gubernamental_visor;edificio_gubernamental_visor.svg
+instituciones_publicas;db_concordia_catalogo;catalogo;sig_iglesias_parroquias_y_templos;;iglesias_parroquias_y_templos;Iglesias, parroquias y templos;orden:502,religion,iglesia, capilla,templo;;4326;gid;;;;Iglesias, parroquias y templos de otros cultos de la ciudad de Concordia.;edificio_religioso;
+instituciones_publicas;db_concordia_catalogo;catalogo;sig_bancos;;bancos;Bancos;orden:503,banco,moneda,cajero;;4326;gid;;;;Entidades bancarias de la ciudad de Concordia.;bancos;bancos.svg
+cultura_y_educacion;db_concordia_catalogo;catalogo;sig_escuelas_cdi;;escuelas_cdi;Escuelas y Centros de Desarrollo Infantil;orden:600,educación,escuela,colegio;;4326;gid;;;;Escuelas y  Centros de Desarrollo Infantil (CDI) de la ciudad de Concordia.;edificio_educativo_visor;edificio_educativo_visor.svg
+movilidad_urbana_y_transporte;db_concordia_catalogo;catalogo;sig_calles;;calles;Calles;orden:700,calles,calle,camino,ruta;;4326;gid;;;;Calles de la ciudad de Concordia (Fuente: Dirección de Catastro);calles_concordia;
+movilidad_urbana_y_transporte;db_concordia_catalogo;catalogo;sig_ferrocarril_concordia;;ferrocarril_concordia;Ferrocarril;orden:701,vias, tren ferrocarril;;4326;gid;;;;Red ferroviaria de la ciudad de Concordia (Fuente: IGN);lineas_de_transporte_ferroviario_visor;
+movilidad_urbana_y_transporte;db_concordia_catalogo;catalogo;sig_aeropuertos;;aeropuertos;Aeropuertos;orden:702,aeronaves,avion,pista,embarque;;4326;gid;;;;Aeropuertos y aeródromos de la ciudad de Concordia.;aeropuerto_puntos_visor;aeropuerto_visor.svg
+movilidad_urbana_y_transporte;db_concordia_catalogo;catalogo;sig_motomandados;;motomandados;Motomandados;orden:703,motomando,delivery,cadeteria;;4326;gid;;;;Empresas de mensajería y cadetería de la ciudad de Concordia.;motomandados;motomandados.svg
+movilidad_urbana_y_transporte;db_concordia_catalogo;catalogo;sig_remiserias;;remiserias;Remiserías;orden:704,remiseria,remis,taxi,vehiculo;;4326;gid;;;;Remiserías de la ciudad de Concordia.;parada_taxiremis;parada_taxiremis.svg
+movilidad_urbana_y_transporte;db_concordia_catalogo;catalogo;sig_cocheras_y_estacionamientos;;cocheras_y_estacionamientos;Cocheras y estacionamientos;orden:705,estacionamiento,cocheras,vehículo;;4326;gid;;;;Cocheras y estacionamientos de la ciudad de Concordia.;cocheras_y_estacionamientos;cocheras_y_estacionamientos
+movilidad_urbana_y_transporte;db_concordia_catalogo;catalogo;sig_terminal_omnibus;;terminal_omnibus;Terminal de ómnibus;orden:706,terminal,estaciones,transporte;;4326;gid;;;;Terminal de ómnibus de la ciudad de Concordia.;estacion_de_omnibus;estacion_de_omnibus.svg
+movilidad_urbana_y_transporte;db_concordia_catalogo;catalogo;sig_estaciones_de_servicio;;estaciones_de_servicio;Estaciones de servicio;orden:707,estación,gas,combustible;;4326;gid;;;;Estaciones de servicio de la ciudad de Concordia;estacion_de_servicio;estacion_de_servicio.svg
+industria_y_comercio;db_concordia_catalogo;catalogo;sig_corralones;;corralones;Corralones;orden:800,corralon,construccion,materiales;;4326;gid;;;;Venta de materiales de construcción de la ciudad de Concordia;corralones;corralones.svg
+industria_y_comercio;db_concordia_catalogo;catalogo;sig_canteras;;canteras;Canteras;orden:801,cantera,mina,excavación;;4326;gid;;;;Canteras de la ciudad de Concordia;mina_visor;mina_visor.svg
+industria_y_comercio;db_concordia_catalogo;catalogo;sig_negocios_mayoristas;;negocios_mayoristas;Negocios mayoristas;orden:802,comercios,mercados,mayoristas;;4326;gid;;;;Negocios mayoristas de la ciudad de Concordia;negocios_comercio;negocios_comercio.svg
+industria_y_comercio;db_concordia_catalogo;catalogo;sig_electrodomesticos;;electrodomesticos;Electrodomésticos;orden:803,electrodomésticos,tecnología,comercio;;4326;gid;;;;Venta de electrodomésticos de la ciudad de Concordia;electrodomesticos;electrodomesticos.svg
+industria_y_comercio;db_concordia_catalogo;catalogo;sig_parque_industrial;;parque_industrial;Parque industrial;orden:804,industria, industrias, fábricas, producción;;4326;gid;;;;Parque industrial de la ciudad de Concordia;parque_industrial;parque_industrial.svg
+turismo_y_recreación;db_concordia_catalogo;catalogo;sig_turismo_termas_hoteles;;turismo_termas_hoteles;Turismo, termas, hoteles;orden:900,turismo,termas,hoteles,alojamiento;;4326;gid;;;;Hoteles, alojamientos y bungalows. Complejo termal de la ciudad de Concordia;hoteles;hoteles.svg
+turismo_y_recreación;db_concordia_catalogo;catalogo;sig_espacios_recreativos;;espacios_recreativos;Espacios recreativos;orden:901,salud,recreacion,esparcimiento;;4326;gid;;;;Espacios recreativos de la ciudad de Concordia;actividad_deportiva;actividad_deportiva.svg
+deportes;db_concordia_catalogo;catalogo;sig_autodromo;;autodromo;Autódromo;orden:1000,autódromo,pista,carreras;;4326;gid;;;;Circuito de carreras Parque Autódromo Ciudad de Concordia;autodromo;autodromo.svg
+"concordia;db_concordia_public;public;h_material_predominante_pisos;;h_material_predominante_pisos;Hogares con piso de tierra o ladrillo suelto 2010 (%);orden:01,hogar,material, pisos;;4326;gid;;;;Material predominante en pisos (H0705):
+
+Superficie exterior de la base sólida con mayor proporción sobre la cual se asienta la estructura de la vivienda. Se los divide en distintos grupos de materiales de pisos:
+-Pisos de cerámica, baldosas, mosaicos, mármol, madera o alfombrado (cbmmma).
+-Pisos de cemento o ladrillo fijo (cemlad).
+-Pisos de tierra o ladrillo suelto (tierra).
+-Pisos de otros materiales (otro).
+
+La clasificación de este mapa corresponde al porcentaje de hogares particulares que tienen piso de tierra o ladrillo suelto (ptierra) en relación a la cantidad total de hogares censados en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_hogares_con_bano;;h_hogares_con_bano;Hogares con baño 2010 (%);orden:02,hogar,baño,letrina,inodoro;;4326;gid;;;;Hogares con baño/letrina (H1510)
+
+Disponibilidad de un espacio cerrado por paredes que se elevan del suelo hasta el techo, o por tabiques, utilizado por el hogar para la evacuación de excretas. Puede estar dentro o fuera de la vivienda y ser de uso exclusivo del hogar o compartido con otros hogares.
+La clasificación de los radios censales representa el porcentaje de hogares particulares sin baño (pno) en relación a la cantidad total de hogares censados en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_desague_inodoro;;h_desague_inodoro;Hogares con conexión de inodoro a red pública 2010 (%);orden:03,hogar,baño,letrina,inodoro;;4326;gid;;;;Hogares según desagüe del inodoro (H1712):
+
+Disponibilidad de un sistema de cañería que permite el arrastre del agua y la eliminación de las excretas del inodoro.
+-Desagüe a red pública (redpublic)
+-Desagüe a cámara séptica y pozo ciego (csep_pozoc)
+-Desagüe sólo a pozo ciego (pozo_ciego)
+-Desagüe a hoyo, excavación en la tierra, etcétera (hoyo_exc)
+
+La clasificación se realizó teniendo en cuenta  el porcentaje de hogares particulares con conexiones a la red pública (predpub) en relación a la cantidad total de hogares del mismo radio censal censados en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_bano_uso_exclusivo;;h_bano_uso_exclusivo;Hogares con baño compartido 2010 (%);orden:04,hogar,baño,letrina,inodoro;;4326;gid;;;;Hogares con baño exclusivo por vivienda (H1510):
+
+Disponibilidad de un espacio cerrado por paredes que se elevan del suelo hasta el techo, o por tabiques (pared que se eleva desde el suelo hasta una altura de dos metros), utilizado por el hogar para la evacuación de excretas. El baño / letrina puede estar dentro o fuera de la vivienda y ser de uso exclusivo del hogar o compartido con otros hogares.
+
+La clasificación de los radios censales indica el porcentaje de hogares que tienen baños compartidos con otros hogares (pcompartid), en relación al total de hogares del mismo radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_bano_boton_cadena_mochila;;h_bano_boton_cadena_mochila;Hogares con baños sin sistema automático de descarga 2010 (%);orden:05,hogar,baño,letrina,inodoro;;4326;gid;;;;Baños con boton, cadena, mochila (H1611)
+Disponibilidad de un sistema automático o semi- automático de descarga de agua para la limpieza del inodoro (artefacto instalado dentro del baño/letrina). 
+
+La clasificación de los radios censales tiene en cuenta el porcentaje de hogares que no tienen baños con sistema automático de descarga de agua para limpieza del inodoro (pno) en relación a la totalidad de hogares de dicho radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_procedencia_agua;;h_procedencia_agua;Hogares con conexión de agua a red pública 2010 (%);orden:06,hogar,agua,servicios;;4326;gid;;;;Procedencia del agua para beber y cocinar (H1409): 
+Fuente y sistema de abastecimiento del agua que el hogar utiliza para beber y cocinar. En caso de abastecerse con más de una fuente, se considera la que predomina en el uso cotidiano del hogar. Las categorías son:
+-Red pública (redpub): red de tuberías comunal. Se la conoce también como agua corriente.
+-Perforación con bomba a motor (perbmotor): extracción del agua de las napas profundas, a través de un medio mecánico de elevación con motor.
+-Perforación con bomba manual (perbmanual):  extracción del agua de las napas profundas, a través de un medio mecánico de elevación manual.
+-pozo: extracción del agua de las napas superficiales a través de un medio mecánico de elevación (que puede ser manual o a motor) o bien a través de un balde o similar (sin utilizar medios mecánicos de elevación).
+-Transporte por cisterna (cisterna): provisión mediante camión tanque, tren aguatero, etcétera.
+-Agua de lluvia, río, canal, arroyo o acequia (lluvia_rio): acumulación del agua de lluvia en un recipiente o directamente de ríos, canales, arroyos o acequias.
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con conexión a la red pública (predpub) censados en el año 2010 en relación al total de hogares de cada radio censal.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_combustible_para_cocinar;;h_combustible_para_cocinar;Hogares que utilizan garrafas para cocinar 2010 (%);orden:07,hogar,garrafas,cocina;;4326;gid;;;;Combustible usado principalmente para cocinar (H2014): 
+
+Sustancia (que tiene el atributo de arder) o fuente de energía que se utiliza con mayor frecuencia para la cocción de los alimentos, tal como: combustibles gaseosos (gas natural o licuado); sólidos (carbón, productos del carbón, leña); petróleo y derivados (kerosene) y otros como la electricidad y el alcohol. Los categorías son:
+- Gas de red: (gasred)
+- Gas a granel (zeppelin): (gasgranel)
+- Gas en tubo: (gastubo)
+- Gas en garrafa: (gasgarrafa)
+- Electricidad: (electricid)
+- Leña o carbón: (l_carbon)
+- Otro: (otro)
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares que utilizan garrafas para cocinar (pgasgarraf) censados en el año 2010 en relación a la cantidad total de hogares de dicho radio censal.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_personas_por_cuarto;;h_personas_por_cuarto;Hogares con hacinamiento de 2 a 3 2010 (%);orden:08,hogar,hacinamineto,personas;;4326;gid;;;;Índice de Hacinamiento (INDHAC): 
+Cociente entre la cantidad total de personas del hogar y la cantidad total de habitaciones o piezas de que dispone el mismo (sin contar baño/s y cocina/s).  
+Se clasificaron en 0-0.50 personas por cuarto (a), 0.51-0.99 personas por cuarto (b), 1-.1.49 personas por cuarto (c), 1.50-1.99 personas por cuarto (d), 2-3 personas por cuarto (e) y mas de 3 personas por cuarto (f).
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con hacinamiento de 2 a 3 (pe), en relación a la cantidad de hogares del mismo radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_tenencia_vivienda_particular;;h_tenencia_vivienda_particular;Hogares según régimen de tenencia - Propietarios de la vivienda 2010 (%);orden:09,hogar,vivienda,propiedades;;4326;gid;;;;Tenencia de vivienda particular 2010
+Régimen de Tenencia (PROP): constituye los arreglos (conjunto de normas jurídico-legales o de hecho) en virtud de los cuales el hogar ocupa toda o parte de una vivienda. 
+Se clasifica en las siguientes categorías:
+-Propietario de la vivienda y del terreno: la vivienda y el terreno en el que está ubicada la misma, pertenecen a alguno/s de los integrantes del hogar (propvt). 
+-Propietario sólo de la vivienda: la vivienda (pero no el terreno en el que está ubicada) pertenece a alguno/s de los integrantes del hogar (propv).
+-Inquilino: el hogar paga, por la utilización de toda o parte de una vivienda, una cantidad en dinero o en especie (anual, mensual, quincenal, etcétera), independientemente de que medie un contrato legal (inquil).
+-Ocupante por préstamo: el hogar utiliza la vivienda que le es facilitada gratuitamente por el propietario (ocuprest). 
+-Ocupante por trabajo: el hogar utiliza la vivienda que es facilitada gratuita o semi-gratuitamente por el patrón, organismo u empresa donde trabaja alguno de los miembros del hogar en virtud de su relación laboral (ocutrab).
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares cuyo régimen de tenencia corresponde a propietario de la vivienda (ppropv) en relación al total de hogares del cada radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_necesidades_basicas_insatisfechas;;h_necesidades_basicas_insatisfechas;Hogares particulares con NBI 2010 (%);orden:10,hogar,vivienda,nbi;;4326;gid;;;;Indicador Necesidades Básicas Insatisfechas (NBI) 
+
+Está determinado por los siguientes factores:
+-NBI Vivienda (NBI1): hogares en una vivienda de tipo inconveniente (pieza de inquilinato, vivienda precaria u otro tipo, lo que excluye casa, departamento y rancho).
+-NBI  Condiciones sanitarias (NBI2): hogares que no tienen ningún tipo de retrete.
+-NBI Hacinamiento (NBI3): hogares que tienen más de tres personas por cuarto.
+NBI Asistencia Escolar (NBI4): hogares con al menos un niño en edad escolar (6 a 12 años) que no asiste a la escuela.
+-NBI Capacidad de Subsistencia (NBI5): hogares que tiene cuatro o más personas por miembro ocupado y, además, cuyo jefe no completó tercer grado de escolaridad  primaria.
+
+Los hogares con Necesidades Básicas Insatisfechas son los que presentan al menos uno de los cinco indicadores de privación descriptos con anterioridad: vivienda (NBI 1), condiciones sanitarias (NBI 2), hacinamiento (NBI 3), asistencia escolar (NBI 4), capacidad de subsistencia (NBI 5).
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con NBI (pcon_nbi) censados en el año 2010, en relación a la cantidad total de hogares del mismo radio censal.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_material_predominante_cubierta_techo;;h_material_predominante_cubierta_techo;Hogares con cubierta de techo de chapa de cartón 2010 (%);orden:11,hogar,vivienda,techo;;4326;gid;;;;Material predominante del techo (H1006): 
+Material observable desde el exterior de una vivienda. En departamentos ubicados en construcciones verticales, corresponde al techo de la última planta. Se consideran diferentes grupos de materiales:
+- Cubierta asfáltica o membrana (casf_m).
+- Baldosa o Losa (losa)
+- Pizarra o teja (piz_teja)
+- Chapa de metal sin cubierta (ch_metal)
+- Chapa de fibrocementos o plástico (ch_plast)
+- Chapa cartón (ch_cart)
+- Caña, palma, tabla o paja con o sin barro (cptpcb)
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con cubierta de techo con chapa de cartón (pch-cart) en relación al total de hogares censados en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_revestimiento_interior_cieloraso;;h_revestimiento_interior_cieloraso;Hogares sin revestimiento o cieloraso 2010 (%);orden:12,hogar,vivienda,carencias;;4326;gid;;;;Cobertura del techo del lado interior de una vivienda (H1007): 
+
+Puede ser revoque, yeso, madera y/o placas de poliestireno expandido, etc. Cuando alguna/s de las habitaciones de la vivienda no tenga/n cielorraso, se registra la situación predominante.
+
+La clasificación de los radios censales representa el porcentaje de hogares sin revestimiento o cielorraso (pno) en relación al total de hogares de cada radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_tenencia_agua;;h_tenencia_agua;Hogares con tenencia de agua dentro de la vivienda 2010 (%);orden:13,hogar,agua,servicios;;4326;gid;;;;Tenencia de agua (H1308): 
+
+Forma en que el hogar accede al agua que utiliza. Las categorías son:
+- Por cañería dentro de la vivienda (dviv): sistema de suministro de agua conectado a una red de tuberías por medio de la cual se distribuye el agua en su interior. 
+- Fuera de la vivienda pero dentro del terreno (fviv_dter): sistema de suministro de agua dentro de los límites del terreno pero no dispone de una red de tuberías para distribuirla hacia el interior de la vivienda.
+- Fuera del terreno (fter): sistema de suministro de agua fuera de la vivienda y de los límites del terreno.
+
+La clasificación de los radios censales representa el porcentaje de hogares particulares con tenencia de agua dentro de la vivienda (pdviv) en relación a la cantidad total de hogares del mismo radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_tenencia_celular;;h_tenencia_celular;Hogares con tenencia de teléfono celular 2010 (%);orden:14,hogar,teléfono,celular;;4326;gid;;;;Tenencia de teléfono celular (H2819C)
+Tenencia de teléfono móvil de al menos uno de los integrantes del hogar.
+
+La clasificación de los radios censales representan el porcentaje de hogares particulares con tenencia de teléfono celular (psi) censados en el año 2010, en relación a la cantidad total de hogares del mismo radio censal.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_tenencia_computadora;;h_tenencia_computadora;Hogares con tenencia de computadora 2010 (%);orden:15,hogar,teléfono,celular;;4326;gid;;;;Tenencia de computadora (H2819B): 
+Indica si el hogar cuenta con un aparato electrónico que se utiliza para el almacenamiento, procesamiento de información (datos, palabras, imágenes, etc.)
+
+La clasificación se realizó teniendo en cuenta el porcentaje de hogares que cuentan con computadora, en relación a la cantidad total de hogares del mismo radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_tenencia_heladera;;h_tenencia_heladera;Hogares con tenencia de heladera 2010 (%);orden:16,hogar,heladera,electrodomesticos;;4326;gid;;;;Tenencia de Heladera (H2819A): 
+La clasificación de los radios censales representa el porcentaje de hogares particulares con tenencia de heladera (psi) en relación a la cantidad total de hogares del mismo radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;h_tenencia_telefono_linea;;h_tenencia_telefono_linea;Hogares con tenencia de teléfono de línea 2010 (%);orden:17,hogar,teléfono,celular;;4326;gid;;;;Teléfono de línea (H2819D): 
+La clasificación de los radios censales representa el porcentaje de hogares particulares que tienen teléfono de línea (psi) censados en el año 2010 en relación a la cantidad total de hogares en el mismo radio censal.;polygon_concordia;"
+"concordia;db_concordia_public;public;p_sexo;;p_sexo;Población de mujeres 2010 (%);orden:18,población,genero,sexo;;4326;gid;;;;Población según sexo (P02): 
+Refiere a la condición de “varón” o “mujer” del censado.
+
+La clasificación de los radios censales representa el porcentaje de mujeres (pmujer) en relación a la población total de dicho radio censal en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;p_nacimientos;;p_nacimientos;Nacimientos en el país 2010;orden:19,población,genero,sexo;;4326;gid;;;;Nacimientos  (P05):
+Permite clasificar a la población en función del país de nacimiento: indica si el censado nació en argentina (arg) u otro país (otros).
+La clasificación de este mapa corresponde al porcentaje de la población por radio censal que nació en el país (parg) en relación a la cantidad total de población censados en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;p_grupos_de_edad;;p_grupos_de_edad;Total de población según grandes grupos de edad Año 2010;orden:20,población,genero,edades;;4326;gid;;;;Edad en grandes grupos (EDADAGRU):
+Esta variable agrupa la edad en años cumplidos a la fecha de referencia del Censo en tres situaciones:
+-De 0 a 14 años (a)
+-De 15 a 64 años (b)
+-Mayores de 64 años (c).
+ Se efectuó el mapeo del último grupo, obteniendo los porcentajes de personas mayores de 64 años (pc) en los distintos radios censales.;polygon_concordia;"
+"concordia;db_concordia_public;public;p_grupos_quinquenales;;p_grupos_quinquenales;Población según grupos quinquenales de edad;orden:21,población,genero,edades;;4326;gid;;;;Edades quinquenales (EDADQUI):
+Es una variable que agrupa la edad en años cumplidos a la fecha de referencia del censo cada cinco años.
+Las categorías son:
+-a: 0 a 4 años
+-b: 5 a 9 años 
+-c: 10 a 14 años
+-d: 15 a 19 años 
+-e: 20 a 24 años
+-f: 25 a 29 años 
+-g: 30 a 34 años
+-h: 35 a 39 años 
+-i: 40 a 44 años
+-j: 45 a 49 años 
+-k: 50 a 54 años
+-l: 55 a 59 años 
+-m: 60 a 64 años
+-n: 65 a 69 años 
+-o: 70 a 74 años
+-p: 75 a 79 años 
+-q: 80 a 84 años
+-r: 85 a 89 años
+-s: 90 a 94 años
+-t: 95 y mas  
+En el mapa se representan los porcentajes de la población de jóvenes de 15 a 19 años de edad (pd) por radio censal.;polygon_concordia;"
+"concordia;db_concordia_public;public;p_segun_parentesco;;p_segun_parentesco;Población en hogares según parentesco;orden:22,población,genero,familia;;4326;gid;;;;Relación de parentesco con el jefe (a) (P01):
+Indica la relación (parentesco, amistad, trabajo u otro tipo) de cada miembro del hogar con quien ellos hayan designado como jefe o jefa del mismo.
+Las categorías son:
+1. jefe: persona reconocida como tal por los demás miembros del hogar.
+2. cónyuge: es la pareja de unión legal (unión civil/matrimonio) o la pareja de unión (de hecho) del jefe o jefa.
+3. hijo: incluye hijos e hijas biológicos y adoptivos legales o de hecho del jefe(a) o criados del jefe o jefa y/o también incluye a los hijos e hijas del o la cónyuge aunque no lo sean del jefe o jefa.
+4. yerno: cónyuge o pareja del hijo(a) o hijastro(a) del jefe o jefa del hogar.
+5. nieto: nietos del jefe o jefa del hogar. Se incluye también a los hijos de hijastros(as).
+6. padre: estas relaciones son aplicables también a vínculos funcionalmente equivalentes, tales como los de padrastros y madrastras con yernos, nietos, etcétera, referidos tanto a los matrimonios como a las uniones de hecho.
+7. otros: personas con algún otro tipo de parentesco con el jefe o la jefa del hogar (por ejemplo: tíos, hermanos, etcétera).
+8. nofam: personas que forman parte del hogar y que no tienen parentesco con el jefe(a) del hogar (amigos, etcétera) y que no están comprendidos en ninguna de las categorías precedentes.
+9. domest: servicio doméstico y sus familiares, persona contratada (legalmente o de hecho) para desarrollar tareas relacionadas con el cuidado y mantenimiento de la vivienda y/o de los integrantes del hogar. La retribución por su trabajo puede ser en dinero o en especie. Incluye a sus familiares.
+En el mapa se representa el porcentaje de jefes/as de hogar por radio censal (pjefe).;polygon_concordia;"
+"concordia;db_concordia_public;public;p_condición_actividad;;p_condición_actividad;6P-Población desocupada 2010 (%);orden:23,población,desocupacion,actividad;;4326;gid;;;;Condición de actividad (CONDACT):
+
+Se clasifica a la población entre económicamente activa e inactiva, según sea el tipo de actividad principal que realizan las personas. La participación económica está referida a las actividades económicas que se desarrollan en el país, destinadas a la producción de bienes y servicios para el mercado. Se los divide en distintos grupos:
+
+- Ocupado: es aquel que durante por lo menos una hora desarrolló cualquier actividad  que genera bienes o servicios para el “mercado”. Incluye a quienes realizaron tareas regulares de ayuda en la actividad de un familiar, reciban o no una remuneración por ello y a quienes se hallaron en uso de licencia por cualquier motivo. Se excluyen trabajos voluntarios o comunitarios.
+
+- Desocupado: es aquel que no hallándose en ninguna de las situaciones descritas en la definición de “ocupado”, desarrolló acciones tendientes a establecer una relación laboral o iniciar una actividad empresarial.
+
+- Inactivo: es aquel que no se incluye en la población económicamente activa, es decir que no es ocupado ni desocupado. Incluye a jubilados, estudiantes y otras situaciones.
+
+La clasificación de este mapa corresponde al porcentaje de población desocupada (pdesocup) en relación a la cantidad total de hogares censados en el año 2010;polygon_concordia;"
+"concordia;db_concordia_public;public;p_no_sepan_leer_ni_escribir;;p_no_sepan_leer_ni_escribir;Población no sabe leer ni escribir 2010 (%);orden:24,población,educacion,actividad;;4326;gid;;;;Sabe leer y escribir (P1707): 
+
+Esta variable se refiere a la capacidad de leer, escribir y comprender una frase sencilla sobre la vida cotidiana en cualquier idioma. Se requiere el conocimiento de ambas capacidades.
+
+La clasificación de este mapa corresponde al porcentaje de población que no sabe leer ni escribir (pno) en relación a la cantidad total de hogares censados en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;p_cursa_o_curso_nivel_educativo;;p_cursa_o_curso_nivel_educativo;Población que no cursó ningún nivel educativo año 2010 (%);orden:25,población,educacion,actividad;;4326;gid;;;;Nivel educativo que cursa o cursó (P1909):
+
+Se refiere al nivel que el censado cursó o está cursando en Argentina o en el exterior en la fecha del censo.
+
+La clasificación de este mapa corresponde al porcentaje de población que no cursa ningún nivel educativo (pno) en relación a la cantidad total de población censados en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;p_asistencia_nivel_educativo;;p_asistencia_nivel_educativo;Población que nunca asistió a un establecimiento educativo (%);orden:26,población,educacion,actividad;;4326;gid;;;;Condición de asistencia escolar (P1808):
+
+Se refiere a la concurrencia actual o pasada (si asiste /asistió) a un establecimiento reconocido del sistema de la enseñanza formal.
+
+Comprende a los establecimientos del sector estatal o privado.
+
+Las categorías son:
+1. Asiste (asiste) 
+2. Asistió (asitio)
+3. Nunca asistió (nasist)
+
+La clasificación de este mapa corresponde al porcentaje de la población por radio censal que nunca tuvo asistencia escolar (pnasist) en relación a la cantidad total de población censados en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;p_nivel_educativo;;p_nivel_educativo;Población según nivel educativo que cursa o cursó año 2010 (%);orden:27,población,educacion,actividad;;4326;gid;;;;Máximo nivel de instrucción (MNI):
+Se refiere a las personas que asistieron a un establecimiento reconocido del sistema de enseñanza formal, que aprobaron el último año de estudio y obtuvieron el diploma o certificado correspondiente a un determinado nivel. En todos los casos comprende la educación pública (nacional y provincial) y privada.
+Para el caso de los que declararon estar asistiendo a un nivel educativo y aun no lo completaron corresponde nivel “incompleto”. Se trata de la estructura anterior a la Ley Federal de Educación y la que resulta de la nueva Ley de Educación Nacional (2006). Esta estructura comprende los niveles:
+1. Inicial - jardín/preescolar (inicial): comprende a los/as niños/as desde los cuarenta y cinco (45) días hasta los cinco (5) años de edad inclusive, siendo obligatorio este último año. 
+2. Primario (primario): comprende los niveles de escolaridad primaria, de carácter obligatorio, cuya duración puede ser de seis o siete años (1° a 7° grado o 1° a 6° grado). 
+3. EGB (egb): La duración es de nueve años y se encuentra compuesta por tres ciclos de tres años cada uno, EGB 1 (1° a 3° grado); EGB 2 (4° a 6° grado) y EGB 3 (7° a 9° grado). 
+4. Secundario (secund): nivel de escolaridad media o secundaria aún vigente. La duración puede ser de cinco o seis años (1° a 5° año o 1° a 6° año). 
+5. Polimodal (polim): La duración es de tres años.
+6. Superior no universitario (sup): nivel de estudios que se realiza en instituciones de educación terciaria no universitaria, con planes de estudios aprobados por el Ministerio de Educación (de la nación o de las provincias)
+7. Universitario (univ): nivel de estudios que se realiza en universidades y comprende exclusivamente las carreras que otorgan títulos profesionales y las licenciaturas. 
+8. Post-universitario (postuni): nivel de estudios que corresponde a las carreras de especificación, maestrías y doctorados acreditadas por la Comisión Nacional de Educación y Acreditación Universitaria (CONEAU) o debidamente reconocida por el Ministerio de Educación. 
+9. Educación especial (especial): modalidad del Sistema Educativo Nacional destinada a asegurar el derecho a la educación de las personas con discapacidades, temporales o permanentes, en todos los niveles y modalidades del Sistema Educativo.
+Se mapea los porcentajes de población que cursan o están cursando el nivel Primario en relación a la población censada en 2010  (pprimario).;polygon_concordia;"
+"concordia;db_concordia_public;public;p_utilización_computadora;;p_utilización_computadora;Población que no utiliza computadora año 2010 (%);orden:28,población,educacion,actividad;;4326;gid;;;;Utilización de computadora (P2212):
+
+Evalúa la capacidad de manejar cualquier programa o software en una computadora. 
+
+La clasificación de este mapa corresponde al porcentaje de población que no utiliza computadora (pno) en relación a la cantidad total de población censada en el año 2010.;polygon_concordia;"
+"concordia;db_concordia_public;public;v_tipos_viviendas_agrupadas;;v_tipos_viviendas_agrupadas;Viviendas de tipo particular 2010 (%);orden:29,hogar,vivienda,casa;;4326;gid;;;;Tipo de vivienda agrupada (TIPVV), establece si la vivienda es particular o colectiva:
+
+1- Particular (particular): vivienda destinada a alojar personas que viven bajo un régimen de tipo familiar. Constituyen tipos de viviendas particulares: casas, ranchos, casillas, departamentos, piezas en inquilinato, piezas en hotel familiar o pensión, viviendas móviles, y locales no construidos para habitación.
+
+2- Colectiva (colectiva): vivienda destinada a alojar personas que viven bajo un régimen institucional (no familiar), regulada por normas de convivencia de carácter administrativo, militar, religioso, de salud, de reclusión, de trabajo, de educación, etc.
+
+Se representa el porcentaje de viviendas de tipo particular por radio censal (ppartic).;polygon_concordia;"
+"concordia;db_concordia_public;public;v_tipos_viviendas_particulares;;v_tipos_viviendas_particulares;Viviendas particulares de tipo casilla 2010 (%);orden:30,hogar,vivienda,casa,casilla;;4326;gid;;;;Tipo de vivienda particular (V01), considera las siguientes categorías:
+
+1- Casa (casa): vivienda con salida directa al exterior (sus habitantes no pasan por pasillos o corredores de uso común) construida originalmente para que habiten personas. Generalmente tiene paredes de ladrillo, piedra, bloque u hormigón.
+2-Rancho (rancho): vivienda con salida directa al exterior (sus habitantes no pasan por pasillos o corredores de uso común) construida originalmente para que habiten personas. Generalmente tiene paredes de adobe, piso de tierra y techo de chapa o paja. Se considera propia de áreas rurales.
+3- Casilla (casilla): vivienda con salida directa al exterior, construida originalmente para que habiten personas (sus habitantes no pasan por pasillos o corredores de uso común). Habitualmente está construida con materiales de baja calidad o de desecho y se considera propia de áreas urbanas.
+4- Departamento (depart): vivienda construida originalmente para que habiten personas, que forma parte de un edificio o estructura que, con una entrada común, contiene por lo menos dos viviendas (o una vivienda y uno o más locales) a las que se accede a través de pasillos, escaleras, zaguanes o ascensores de uso común.
+5- Pieza en inquilinato (piezainq): pieza ubicada en un inquilinato o conventillo, siendo ésta una edificación o estructura que ha sido construida o remodelada deliberadamente para contener varias piezas que tienen salida a uno o más espacios de uso común con la finalidad de alojar en forma permanente personas en calidad de inquilinos.
+6- Pieza en hotel familiar o pensión (hotel): pieza ubicada en un hotel familiar o pensión, siendo ésta una edificación o estructura que ha sido construida o remodelada deliberadamente para contener varias piezas que tienen salida a uno o más espacios de uso común con la finalidad de alojar en forma permanente personas en calidad de huéspedes o pensionistas. Cada pieza en hotel o pensión familiar en la que hubo personas que pasaron la noche de referencia del Censo es considerada una vivienda.
+7- Local no construido para habitación (local): vivienda que no ha sido construida o adaptada para que habiten personas pero en la que hubo personas que pasaron la noche de referencia del Censo.
+8- Vivienda móvil (movil): estructura que es utilizada como vivienda, construida para ser transportada (tienda de campaña, taco o carpa) o que constituye una unidad móvil (barco, bote, vagón de ferrocarril, casa rodante, camión, trineo, etcétera). Será considerada vivienda particular sólo si hubo personas que pasaron la noche de referencia del Censo.
+9- En la calle (calle): espacio en la vía pública (calle, estación del ferrocarril, estación del subterráneo, portal de edificio, plaza, etcétera) utilizado por el hogar como lugar de habitación y/o pernocte en el momento del censo.
+
+Se representa el porcentaje de viviendas particulares del tipo casilla por radio censal (pcasilla).;polygon_concordia;"
+"concordia;db_concordia_public;public;v_tipos_viviendas_colectivas;;v_tipos_viviendas_colectivas;Viviendas colectivas de tipo hogares de ancianos 2010 (%);orden:31,hogar,vivienda,casa;;4326;gid;;;;Tipos de viviendas colectivas (V00):
+1. Hogares de ancianos (hancianos): incluye geriátrico.
+2. Hogares de menores (hmenores).
+3. Residencias de estudiantes, colegios o internados (internado).
+4. Campamentos (Campamento): incluye obradores.
+5. Hospitales (hospital).
+6. Prisiones (prision): incluye comisarías.
+7. Cuarteles (cuartel).
+8. Hogares de religiosos (religioso): incluye conventos y seminarios.
+9. Hoteles turísticos (turistico).
+10. Otros (otros).
+
+Se representa el porcentaje de viviendas colectivas de tipo hogares de ancianos, referido al total de viviendas colectivas por radio censal (phancianos).;polygon_concordia;"
+"concordia;db_concordia_public;public;v_calidad_constructiva_viviendas_particulares_habitadas;;v_calidad_constructiva_viviendas_particulares_habitadas;Viviendas particulares con calidad constructiva insuficiente 2010 (%);orden:32,hogar,vivienda,casa,construccion;;4326;gid;;;;Calidad constructiva de la vivienda (INCALCONS): refiere a la calidad de los materiales con que están construidas las viviendas (piso, techo y cielorraso). Se consideran las siguientes categorías:
+1. Calidad satisfactoria (satisfac): refiere a las viviendas que disponen de materiales resistentes, sólidos y con la aislación adecuada. A su vez también disponen de cañerías dentro de la vivienda y de inodoro con descarga de agua.
+2. Calidad básica (basica): identifica a las viviendas que no cuentan con elementos adecuados de aislación o tienen techo de chapa o fibrocemento. No obstante, cuentan con cañerías dentro de la vivienda y de inodoro con descarga de agua.
+3. Calidad insuficiente (insufic): abarca a las viviendas que no cumplen ninguna de las 2 condiciones anteriores.
+
+Se representa el porcentaje de viviendas particulares habitadas con una calidad constructiva insuficiente (pinsufic).;polygon_concordia;"
+"concordia;db_concordia_public;public;v_calidad_conexiones_servicios_basicos;;v_calidad_conexiones_servicios_basicos;Viviendas con conexiones a servicios básicos de calidad satisfatoria 2010 (%);orden:33,hogar,vivienda,casa,construccion;;4326;gid;;;;Calidad de conexiones a servicios básicos (INCALSERV): refiere al tipo de instalaciones con que cuentan los hogares para su saneamiento (agua, baño y desagüe). 
+Las categorías clasificatorias son: 
+Calidad satisfactoria (satisfac): refiere a las viviendas que disponen de agua a red pública y desagüe cloacal. 
+Calidad básica (basica): describe la situación de aquellas viviendas que disponen de agua de red pública y el desagüe a pozo con cámara séptica. 
+Calidad insuficiente(insufic): abarca a las viviendas que no cumplen ninguna de las 2 condiciones anteriores.
+
+Se representa el porcentaje de viviendas con calidad satisfactoria de conexiones a servicios básicos por radio censal (psatisfac).
+;polygon_concordia;"
+"concordia;db_concordia_public;public;v_calidad_materiales_viviendas_particulares_habitadas;;v_calidad_materiales_viviendas_particulares_habitadas;Viviendas con materiales de baja calidad en pisos y techos 2010 (%);orden:34,hogar,vivienda,casa,construccion;;4326;gid;;;;Calidad de los materiales (INMAT): refiere a la calidad de los materiales con que están construidas las viviendas (material predominante de los pisos y techos), teniendo en cuenta la solidez, resistencia y capacidad de aislamiento, así como también su terminación.
+Calidad I (calid1): la vivienda presenta materiales resistentes y sólidos tanto en el piso como en techo; presenta cielorraso.
+Calidad II (calid2): la vivienda presenta materiales resistentes y sólidos tanto en el piso como en el techo. Y techos sin cielorraso o bien materiales de menor calidad en pisos.
+Calidad III (calid3): la vivienda presenta materiales poco resistentes y sólidos en techo y en pisos.
+Calidad IV (calid4): la vivienda presenta materiales de baja calidad en pisos y techos.
+
+Se representa el porcentaje de viviendas particulares habitadas con una calidad IV de materiales (pcalid4) por radio censal.;polygon_concordia;"
+"concordia;db_concordia_public;public;v_condicion_ocupacion_viviendas_particulares;;v_condicion_ocupacion_viviendas_particulares;Viviendas particulares habitadas con personas presentes 2010 (%);orden:35,hogar,vivienda,casa;;4326;gid;;;;Condición de ocupación (V02): Esta variable establece si la vivienda se encuentra habitada o deshabitada la noche de referencia del Censo.
+• Habitada con personas presentes (presentes).
+• Habitada con todas las personas temporalmente ausentes (ausentes).
+• Deshabitada: en alquiler o venta (alqu_venta); en construcción (construc); se usa como comercio, oficina o consultoriose (com_ofic); uso temporario (uso_temp); por otra razón (otros).
+
+Se representa el porcentaje de viviendas particulares habitadas con personas presentes (ppresentes) por radio censal .;polygon_concordia;"
+concordia;db_concordia_public;public;fraccion_censal;;fraccion_censal;Fracción Censal;orden:100,censo,relevamiento,encuesta;;4326;gid;;;;División del Departamento o Partido, compuesta por un promedio de 20 radios censales (en áreas urbanas comprende entre 3000 y 6000 viviendas);polygon_concordia;
+concordia;db_concordia_public;public;radio_censal;;radio_censal;Radio Censal;orden:101,censo,relevamiento,encuesta;;4326;gid;;;;Unidad de diseño muestral. En áreas urbanas,los radios comprenden entre 200 y 400 viviendas. En áreas rurales su tamaño depende de la cantidad de viviendas por radio, de la accesibilidad e infraestructura de la zona  y de la distancia a recorrer por el censista.;polygon_concordia;
+concordia;db_concordia_public;public;barrios;;barrios;Barrios;orden:102,barrio,barrios,catastro;;4326;gid;;;;Barrios del éjido de Concordia. Fuente: Dirección de Catastro Municipalidad de Concordia;polygon_concordia;
+concordia;db_concordia_public;public;manzanas;;manzanas;Manzanas;orden:103,barrio,manzanas,catastro,parcelas;;4326;gid;;;;Manzanas catastrales del éjido de Concordia. Fuente: Dirección de Catastro Municipalidad de Concordia;polygon_concordia;
+concordia;db_concordia_public;public;parcelas;;parcelas;Parcelas;orden:104,barrio,manzanas,catastro,parcelas;;4326;gid;;;;Bien inmueble de extensión territorial continua delimitado por una poligonal cerrada, perteneciente a un propietario o varios en condominio, o poseido por una persona o por varias en común, cuya existencia y elementos esenciales consten en un plano registrado en el organismo catastral. Fuente: Dirección de Catastro Municipalidad de Concordia.;polygon_concordia;
+concordia;db_concordia_public;public;luminarias;;luminarias;Luminarias;orden:200,luminarias,alumbrado,iluminación;;4326;gid;;;;Luminarias del éjido de Concordia. (Fuente: Dirección de Electrotecnia del Municipio de Concordia);line_concordia;
+concordia;db_concordia_public;public;medidores_alumbrado;;medidores_alumbrado;Medidores de alumbrado;orden:201,luminarias,alumbrado,iluminación;;4326;gid;;;;Medidores de alumbrado del éjido de Concordia. (Fuente: Dirección de Electrotecnia del Municipio de Concordia);point_concordia;
+concordia;db_concordia_public;public;medidores_reparticion;;medidores_reparticion;Medidores de repartición;orden:202,luminarias,alumbrado,iluminación;;4326;gid;;;;Medidores de alumbrado del éjido de Concordia (Fuente: Dirección de Electrotecnia del Municipio de Concordia). DECRETO Nº 984/2010: regitran el consumo de semáforos y otros elementos para señalización vial o relojes electrónicos instalados por la Municipalidad previa coordinación con la Cooperativa Electrica de Concordia.Liquidación según cuadro tarifario del EPRE. Incluye lugares donde la Cooperativa no presta servicios de mantenimiento (plazas, peatonales, paseos, etc.);point_concordia;
+concordia;db_concordia_public;public;mensulas_cfi;;mensulas_cfi;Mensulas CFI;orden:203,ménsula,nivelación,altimetría;;4326;gid;;;;Red de puntos fijos altimétricos de la ciudad de Concordia (Fuente: Consejo Federal de Inversiones 1988);point_concordia;
+concordia;db_concordia_public;public;pavimento_y_cordon_cuneta;;pavimento_y_cordon_cuneta;Pavimento y cordón cuneta;orden:204,pavimento,cordón,construcción;;4326;gid;;;;Clasificación de las calles de acuerdo al tipo de superficie de rodadura (Fuente: Dirección de Ingeniería del Municipio de Concordia);line_concordia;
+concordia;db_concordia_public;public;recoleccion_residuos;;recoleccion_residuos;Recoleccion de residuos;orden:205,servicios,residuos,basura;;4326;gid;;;;Días y horarios asignados a la recolección de residuos (Fuente: Secretaría de Servicios Públicos de Concordia);polygon_concordia;
+concordia;db_concordia_public;public;bomberos;;bomberos;Bomberos;orden:300,bomberos,incendio,fuego;;4326;gid;;;;Cuarteles de bomberos de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;comisarias;;comisarias;Comisarias;orden:301,seguridad,control,policia;;4326;gid;;;;Comisarías de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;hospitales_sanatorios_centros_salud;;hospitales_sanatorios_centros_salud;Hospitales, Sanatorios y Centros de salud;orden:400,salud, medicina, hospitales;;4326;gid;;;;Hospitales, sanatorios y centros de salud del éjido de Concordia.;point_concordia;
+concordia;db_concordia_public;public;correo;;correo;Correo;orden:500,correo,postales,encomiendas;;4326;gid;;;;Empresas de correo postal y encomiendas de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;edificios_publicos;;edificios_publicos;Edificios públicos;orden:501,edificios,construcción;;4326;gid;;;;Edificios públicos de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;iglesias_parroquias_y_templos;;iglesias_parroquias_y_templos;Iglesias, parroquias y templos;orden:502,religion,iglesia, capilla,templo;;4326;gid;;;;Iglesias, parroquias y templos de otros cultos de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;bancos;;bancos;Bancos;orden:503,banco,moneda,cajero;;4326;gid;;;;Entidades bancarias de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;escuelas_cdi;;escuelas_cdi;Escuelas y Centros de Desarrollo Infantil;orden:600,educación,escuela,colegio;;4326;gid;;;;Escuelas y  Centros de Desarrollo Infantil (CDI) de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;calles;;calles;Calles;orden:700,calles,calle,camino,ruta;;4326;gid;;;;Calles de la ciudad de Concordia (Fuente: Dirección de Catastro);line_concordia;
+concordia;db_concordia_public;public;ferrocarril_concordia;;ferrocarril_concordia;Ferrocarril;orden:701,vias, tren ferrocarril;;4326;gid;;;;Red ferroviaria de la ciudad de Concordia (Fuente: IGN);line_concordia;
+concordia;db_concordia_public;public;aeropuertos;;aeropuertos;Aeropuertos;orden:702,aeronaves,avion,pista,embarque;;4326;gid;;;;Aeropuertos y aeródromos de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;motomandados;;motomandados;Motomandados;orden:703,motomando,delivery,cadeteria;;4326;gid;;;;Empresas de mensajería y cadetería de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;remiserias;;remiserias;Remiserías;orden:704,remiseria,remis,taxi,vehiculo;;4326;gid;;;;Remiserías de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;cocheras_y_estacionamientos;;cocheras_y_estacionamientos;Cocheras y estacionamientos;orden:705,estacionamiento,cocheras,vehículo;;4326;gid;;;;Cocheras y estacionamientos de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;terminal_omnibus;;terminal_omnibus;Terminal de ómnibus;orden:706,terminal,estaciones,transporte;;4326;gid;;;;Terminal de ómnibus de la ciudad de Concordia.;point_concordia;
+concordia;db_concordia_public;public;estaciones_de_servicio;;estaciones_de_servicio;Estaciones de servicio;orden:707,estación,gas,combustible;;4326;gid;;;;Estaciones de servicio de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;corralones;;corralones;Corralones;orden:800,corralon,construccion,materiales;;4326;gid;;;;Venta de materiales de construcción de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;canteras;;canteras;Canteras;orden:801,cantera,mina,excavación;;4326;gid;;;;Canteras de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;negocios_mayoristas;;negocios_mayoristas;Negocios mayoristas;orden:802,comercios,mercados,mayoristas;;4326;gid;;;;Negocios mayoristas de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;electrodomesticos;;electrodomesticos;Electrodomésticos;orden:803,electrodomésticos,tecnología,comercio;;4326;gid;;;;Venta de electrodomésticos de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;parque_industrial;;parque_industrial;Parque industrial;orden:804,industria, industrias, fábricas, producción;;4326;gid;;;;Parque industrial de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;turismo_termas_hoteles;;turismo_termas_hoteles;Turismo, termas, hoteles;orden:900,turismo,termas,hoteles,alojamiento;;4326;gid;;;;Hoteles, alojamientos y bungalows. Complejo termal de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;espacios_recreativos;;espacios_recreativos;Espacios recreativos;orden:901,salud,recreacion,esparcimiento;;4326;gid;;;;Espacios recreativos de la ciudad de Concordia;point_concordia;
+concordia;db_concordia_public;public;autodromo;;autodromo;Autódromo;orden:1000,autódromo,pista,carreras;;4326;gid;;;;Circuito de carreras Parque Autódromo Ciudad de Concordia;point_concordia;
