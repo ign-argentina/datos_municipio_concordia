@@ -1,0 +1,59 @@
+{
+  "table": {
+    "isActive": false,
+    "rowsLimit": 5
+  },
+  "charts": {
+    "isActive": true
+  },
+  "metaTags": {
+    "title": "",
+    "description": "",
+    "image": ""
+  },
+  "analytics_ids": [],
+  "excluded_plugins": ["minimap"],
+  "mapConfig": {
+    "center": {
+      "latitude": -31.3983,
+      "longitude": -57.9999
+    },
+    "zoom": {
+      "initial": 14,
+      "min": 3,
+      "max": 21
+    }
+  },
+  "showSearchBar": false,
+  "referencias": {
+    "show": false,
+    "src": "src/config/default/styles/images/referencias.png",
+    "width":"25px",
+    "height":"31px"
+  },
+  "theme": {
+    "bodyBackground": "#045488",
+    "headerBackground": "#045488",
+    "menuBackground": "#034774",
+    "activeLayer": "#009bd4",
+    "textMenu":"#e5edf3",
+    "textMenuStyle":"",
+    "textLegendMenu":"grey",
+    "textLegendMenuStyle":"",
+    "iconBar":"#e5edf3"
+    },
+  "logo": {
+    "title":"Instituto Geográfico Nacional",
+    "src": "https://ide.concordia.gob.ar/visualizador/src/config/default/styles/images/logo-IDEC.png",
+    "height": "35%",
+    "width": "",
+    "style": "",
+    "srcLogoMini": "https://ide.concordia.gob.ar/visualizador/src/config/default/styles/images/logo-IDEC.png",
+    "miniHeight": "35%",
+    "miniWidth": "",
+    "ministyle": ";"
+  },
+  "title": "IDE CONCORDIA",
+  "website": "https://ide.concordia.gob.ar/",
+  "favicon": "https://www.ign.gob.ar/sites/default/files/favicon.png"
+}
